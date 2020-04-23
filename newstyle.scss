@@ -1,0 +1,22 @@
+$color_red: red;
+$color_green:darkgreen;
+
+%font{
+        font-size: 26px;
+}
+
+.card_block_red{ 
+        h5{
+                @extend %font;
+                color: $color_red;
+        }
+        
+
+}
+
+.card_block_green{
+        h5{
+                @extend %font;
+                color: $color_green;
+        }
+}

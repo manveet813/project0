@@ -1,0 +1,158 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container {
+  display : flex;
+  background-color:#D35400 ;
+  list-style-type:none;
+  justify-content: center;
+  margin: 0;
+}
+
+.flex-container > li {
+
+  border-left: 1px solid #fff;
+
+}
+
+.flex-container > li:hover {
+  background-color: #873600;
+}
+
+.flex-container > li:last-child {
+border-right: 1px solid #fff;
+}
+
+
+.flex-container > li > a {
+  display: block;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+}
+
+.active {
+  background-color: #873600;
+}
+
+h2 {
+  text-align: center;
+}
+
+.div_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_home {
+  width: 80%;  
+  border-radius: 2px; 
+}
+
+#mytable, th, td {
+  border: 1px solid #873600;
+}
+
+#mytable {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+th, td {
+  padding: 15px;
+}
+
+th {
+  background-color: #873600;
+  color: #fff;
+}
+tr:hover {
+  background-color:#FDF2E9;
+}
+
+@media (max-width:600px) {
+  .flex-container > li > a {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+}
+
+/* places.html */
+
+/* .flex_container_places {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 40px 0px;
+  
+} */
+
+#row > div {
+  min-height: 400px;
+  text-align: center;
+  border: 2px solid #EDBB99;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+} 
+
+.img_div {
+  width: 80%;
+  margin: 20px 0px;
+}
+
+#row > div:hover {
+  border: 2px solid #D35400;
+}
+
+
+/* things.html */
+
+.flex_container_things {
+  display: flex;
+  width: 500px;
+  border: 2px solid #EDBB99;
+  border-radius: 5px;
+  margin: 40px 50px;
+}
+
+.flex_container_things > div {
+  padding-top: 20px;  
+}
+
+.img_things {
+  width: 250px;
+  padding: 20px;
+
+} 
+
+.flex_wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex_container_things:hover {
+  border: 2px solid #D35400;
+}
+
+/* gallery.html */
+
+.flex_container_gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 60px 60px;
+  justify-content:flex-start;
+}
+
+.img_item {
+  width: 250px;
+  height: 200px;
+  margin: 10px;
+}

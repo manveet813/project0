@@ -2,8 +2,72 @@
 <html>
   <head>
     <title>My first Webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+
   </head>
   <body>
-    Hello World!
+    <div>
+      <ul class="flex-container">
+        <li class="active"><a href="index.html">Home</a></li> 
+        <li><a href="places.html">Places to go</a></li>
+        <li><a href="things.html">Things to do</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </div>
+
+    <div class="container pt-5 ">
+      <div class="row">
+        <div class="col-lg-6">
+        <h2 class="pb-4">Lake District</h2>
+        <p >The Lake District, also known as the Lakes or Lakeland, is a mountainous region in North West England. A popular holiday destination, it is famous for its lakes, forests and mountains (or fells), and its associations with William Wordsworth and other Lake Poets and also with Beatrix Potter and John Ruskin.</p>  
+      </div>
+      <div class="col-lg-6 div_img">
+        <img class = "img_home" src="./images/lakeDistrict.jpg" alt="">
+      </div>
+    </div>
+
+    <div>
+      <h4 class="mb-4">List of Lakes and other information</h4>
+      <table id="mytable">
+        <tr>
+          <th>Name of Lake</th>
+          <th>Max. Length (km)</th>
+          <th>Max. Width (km)</th>
+          <th>Max. Depth (m)</th>
+          <th>Type of Lake</th>
+        </tr>
+        <tr>
+          <td>Ullswater</td>
+          <td>11.8</td>
+          <td>1.02 </td>
+          <td>63</td>
+          <td>Ribbon</td>
+        </tr>
+        <tr>
+          <td>Buttermere</td>
+          <td>2</td>
+          <td>0.57 </td>
+          <td>23</td>
+          <td>Ribbon</td>
+        </tr>
+        <tr>
+            <td>Windermere</td>
+            <td>18.08</td>
+            <td>1.49 </td>
+            <td>66.76</td>
+            <td>Ribbon mere</td>
+          </tr>
+          <tr>
+              <td>Ennerdale Water</td>
+              <td>4.17</td>
+              <td>1.28  </td>
+              <td>45</td>
+              <td>Natural</td>
+            </tr>
+      </table>
+    </div>
+
   </body>
 </html>
